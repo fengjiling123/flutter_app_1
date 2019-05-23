@@ -154,7 +154,7 @@ class _LoginPageState extends State<LoginPage> {
                           new TextStyle(fontSize: 15.0, color: Colors.black54),
                       controller: _usernameControllor, //控制器，控制文本的内容，
                       //在build方法之前初始化控制器 final TextEditingController _usernameControllor = new TextEditingController();
-                      autofocus: true, //自动获得焦点
+                      // autofocus: true, //自动获得焦点
                       keyboardType: TextInputType.number, //设置输入框文本类型 ？？？貌似不起效果
                       // textAlign: TextAlign.right,  设置textAlign就会报错
                       decoration: new InputDecoration(
